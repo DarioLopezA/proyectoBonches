@@ -38,8 +38,9 @@
         <div class="wrapper">
             <!-- Preloader -->
             <div class="preloader flex-column justify-content-center align-items-center">
-                <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+                <img class="animation__shake" src="../dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
             </div>
+
 
             <!-- Navbar -->
             <nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -56,8 +57,8 @@
             <aside class="main-sidebar sidebar-dark-primary elevation-4">
                 <!-- Brand Logo -->
                 <a href="index3.html" class="brand-link">
-                    <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-                    <span class="brand-text font-weight-light">PRODUCCION</span>
+                    <img src="../dist/img/AdminLTELogo.png" alt="AdminLTELogo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                    <span class="brand-text font-weight-light">PRODUCCIÓN</span>
                 </a>
 
                 <!-- Sidebar -->
@@ -65,10 +66,10 @@
                     <!-- Sidebar user panel (optional) -->
                     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                         <div class="image">
-                            <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                            <img src="../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
                         </div>
                         <div class="info">
-                            <a href="#" class="d-block">Dario Lopez</a>
+                            <a href="#" class="d-block">Raúl López A.</a>
                         </div>
                     </div>
 
@@ -321,20 +322,20 @@
                                                         <tbody>
                                                             <tr>
                                                                 <td>1</td>
-                                                                <td>R1</td>
-                                                                <td>R001</td>
+                                                                <td>Fin1</td>
+                                                                <td>F001</td>
                                                             </tr>
 
                                                             <tr>
                                                                 <td>2</td>
-                                                                <td>R2</td>
-                                                                <td>R002</td>
+                                                                <td>Fin2</td>
+                                                                <td>F002</td>
                                                             </tr>
 
                                                             <tr>
                                                                 <td>3</td>
-                                                                <td>R3</td>
-                                                                <td>R003</td>
+                                                                <td>Fin3</td>
+                                                                <td>F003</td>
                                                             </tr>
 
                                                         </tbody>
