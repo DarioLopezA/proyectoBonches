@@ -10,10 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login</title>
+        <title>Inventario - Bonches</title>
         <%-- link bootstrap web --%>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-       
+
         <style>
             /* Estilos adicionales para personalización */
             body {
@@ -69,17 +69,18 @@
                                 <div class="form-check mb-0">
                                     <input class="form-check-input me-2" type="checkbox" value="1" id="form2Example3" />
                                     <label class="form-check-label" for="form2Example3">
-                                        Guardar Credenciales
+                                        Recordar
                                     </label>
                                 </div> 
                             </div>
                             <div class="text-center text-lg-start mt-4 pt-2">
-                                <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
-                                        style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+                                <!-- Cambiar el botón por un enlace -->
+                                <a href="/proyectoBonches/VISTAS/estructura.jsp" class="btn btn-primary btn-lg"
+                                   style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</a>
                             </div>
+
                         </form>
-                        <%-- link a menu temporal--%>
-                        <a href="finca.jsp">menu</a>  
+
                     </div>
                 </div>
             </div>

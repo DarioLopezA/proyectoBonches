@@ -127,7 +127,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="punto-corte.jsp" class="nav-link">
+                <a href="puntoCorte.jsp" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>
                       Punto Corte

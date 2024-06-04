@@ -112,6 +112,9 @@
         <servlet-name>variedad</servlet-name>
         <url-pattern>/variedad</url-pattern>
     </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>VISTAS/inicio.jsp</welcome-file>
+    </welcome-file-list>
     <session-config>
         <session-timeout>
             30

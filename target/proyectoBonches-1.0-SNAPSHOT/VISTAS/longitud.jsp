@@ -37,7 +37,7 @@
 <div class="wrapper">
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__shake" src="../dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
   </div>
 
   <!-- Navbar -->
@@ -56,7 +56,7 @@
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
       <img src="../dist/img/AdminLTELogo.png" alt="AdminLTELogo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">PRODUCCION</span>
+      <span class="brand-text font-weight-light"> Blossom</span>
     </a>
 
     <!-- Sidebar -->
@@ -126,7 +126,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="punto-corte.jsp" class="nav-link">
+                <a href="puntoCorte.jsp" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>
                       Punto Corte
