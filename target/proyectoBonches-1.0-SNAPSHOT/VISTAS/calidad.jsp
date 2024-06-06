@@ -230,7 +230,7 @@
                                     <div class="card-header">
                                         <h3 class="card-title">
                                             <i class="far fa-address-book mr-1"></i> 
-                                            Registro Tipo de Calidad
+                                            Registro de Calidad
                                         </h3>
 
                                     </div><!-- /.card-header -->

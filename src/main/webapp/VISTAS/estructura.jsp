@@ -3,15 +3,12 @@
     Created on : May 28, 2024, 10:30:36 AM
     Author     : dario.lopez
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Inventario-Bonches</title>
-
         <!-- Google Font: Source Sans Pro -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
         <!-- Font Awesome -->
@@ -33,15 +30,12 @@
         <!-- summernote -->
         <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.min.css">
     </head>
-
     <body class="hold-transition sidebar-mini layout-fixed">
         <div class="wrapper">
             <!-- Preloader -->
             <div class="preloader flex-column justify-content-center align-items-center">
                 <img class="animation__shake" src="../dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
             </div>
-
-
             <!-- Navbar -->
             <nav class="main-header navbar navbar-expand navbar-white navbar-light">
                 <!-- Left navbar links -->
@@ -51,8 +45,6 @@
                     </li>
                 </ul>
             </nav>
-            <!-- /.navbar -->
-
             <!-- Main Sidebar Container -->
             <aside class="main-sidebar sidebar-dark-primary elevation-4">
                 <!-- Brand Logo -->
@@ -60,7 +52,6 @@
                     <img src="../dist/img/AdminLTELogo.png" alt="AdminLTELogo" class="brand-image img-circle elevation-3" style="opacity: .8">
                     <span class="brand-text font-weight-light">PRODUCCIÓN</span>
                 </a>
-
                 <!-- Sidebar -->
                 <div class="sidebar">
                     <!-- Sidebar user panel (optional) -->
@@ -72,8 +63,6 @@
                             <a href="#" class="d-block">Raúl López A.</a>
                         </div>
                     </div>
-
-
                     <!-- Sidebar Menu -->
                     <nav class="mt-2">
                         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
@@ -112,7 +101,6 @@
                                             <p>Calidad</p>
                                         </a>
                                     </li>
-
                                     <li class="nav-item">
                                         <a href="tallos.jsp" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
@@ -153,8 +141,6 @@
                                     </li>
                                 </ul>
                             </li>
-
-
                             <li class="nav-item  menu-open">
                                 <a href="#" class="nav-link  active">
                                     <i class="nav-icon fas fa-edit"></i>
@@ -193,11 +179,8 @@
 
                         </ul>
                     </nav>
-                    <!-- /.sidebar-menu -->
                 </div>
-                <!-- /.sidebar -->
             </aside>
-
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
@@ -216,12 +199,9 @@
                         </div><!-- /.row -->
                     </div><!-- /.container-fluid -->
                 </div>
-                <!-- /.content-header -->
-
                 <!-- Main content -->
                 <section class="content">
                     <div class="container-fluid">
-
                         <!-- /.row -->
                         <!-- Main row -->
                         <div class="row">
@@ -234,19 +214,14 @@
                                             <i class="far fa-address-book mr-1"></i> 
                                             Registro de Fincas
                                         </h3>
-
                                     </div><!-- /.card-header -->
                                     <div class="card-body">
                                         <div class="tab-content p-0">
-
-                                            <!-- Labels -->
-
                                             <!-- general form elements -->
                                             <div class="card card-primary">
                                                 <div class="card-header">
                                                     <h3 class="card-title">Datos</h3>
                                                 </div>
-
                                                 <!-- form start -->
                                                 <form>
                                                     <div class="card-body">
@@ -258,49 +233,37 @@
                                                             <label for="exampleInputText2">Alterno</label>
                                                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Unico">
                                                         </div>
-
                                                     </div>
                                                     <!-- /.card-body -->
-
                                                     <div class="card-footer">
                                                         <button type="submit" class="btn btn-primary">Submit</button>
                                                     </div>
                                                 </form>
                                             </div>
                                             <!-- /.card -->
-
                                         </div>
                                     </div><!-- /.card-body -->
                                 </div>
                                 <!-- /.card -->
-
                             </section>
                             <!-- /.Left col -->
                             <!-- right col (We are only adding the ID to make the widgets sortable)-->
                             <section class="col-lg-7 connectedSortable">
-
                                 <!-- Tabla de ingreso Finca-->
-
                                 <div class="card">
                                     <div class="card-header">
                                         <h3 class="card-title">
                                             <i class="far fa-address-book mr-1"></i> 
                                             Tabla de Registros
                                         </h3>
-
                                     </div><!-- /.card-header -->
                                     <div class="card-body">
                                         <div class="tab-content p-0">
-
-                                            <!-- Labels -->
-
                                             <div class="card">
                                                 <div class="card-header">
-
                                                     <div class="card-tools">
                                                         <div class="input-group input-group-sm" style="width: 150px;">
                                                             <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-
                                                             <div class="input-group-append">
                                                                 <button type="submit" class="btn btn-default">
                                                                     <i class="fas fa-search"></i>
@@ -325,34 +288,25 @@
                                                                 <td>Fin1</td>
                                                                 <td>F001</td>
                                                             </tr>
-
                                                             <tr>
                                                                 <td>2</td>
                                                                 <td>Fin2</td>
                                                                 <td>F002</td>
                                                             </tr>
-
                                                             <tr>
                                                                 <td>3</td>
                                                                 <td>Fin3</td>
                                                                 <td>F003</td>
                                                             </tr>
-
                                                         </tbody>
                                                     </table>
                                                 </div>
                                                 <!-- /.card-body -->
                                             </div>
-                                            <!-- /.card -->
-
-
                                         </div>
-                                        <!-- /.card -->
-
                                     </div>
                                 </div><!-- /.card-body -->
                         </div>
-
                 </section>
                 <!-- right col -->
             </div>
@@ -363,11 +317,10 @@
 </div>
 <!-- /.content-wrapper -->
 <footer class="main-footer">
-    <strong>2024 <a href="https://rosaprima.sharepoint.com/">Proyecto.Produccion</a>.</strong>
-    All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
-        <b>Version</b> 1.0.0
-    </div>
+    <p>Copyright © 2024</p>
+    López Arias Raúl - Registro Inventario de Bonches
+
+</div>
 </footer>
 
 <!-- Control Sidebar -->
